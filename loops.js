@@ -5,9 +5,9 @@ function incrementVariable(i) {
 
 function doWhileLoop(num) {
   num = 0;
-  incrementVariable(i);
 
   do {
     console.log("I run once regardless.");
+    num = incrementVariable(num);
   } while (incrementVariable() < num)
 }

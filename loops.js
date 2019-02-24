@@ -3,6 +3,13 @@ function incrementVariable(i) {
   return i;
 }
 
+forLoop(array) {
+  for(let i = 0; i < 25; i++) {
+    array[i] = `"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
+  }
+  return array;
+}
+
 function doWhileLoop(num) {
   do {
     console.log("I run once regardless.");

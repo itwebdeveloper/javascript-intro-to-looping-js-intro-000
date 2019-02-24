@@ -4,8 +4,6 @@ function incrementVariable(i) {
 }
 
 function doWhileLoop(num) {
-  num = 0;
-
   do {
     console.log("I run once regardless.");
     num = incrementVariable(num);
